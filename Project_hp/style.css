@@ -1,0 +1,125 @@
+
+.body-class{
+    font-family:Poppins,san-serif;
+    padding:10px;
+}
+
+.logo{
+    /* height: 10px;
+    width: 5px;*/
+    margin-left: 20px;
+    padding-top: 30px;
+    float: left;
+    /*width: 10%;*/
+} 
+.navigation{
+    width:100%;
+    float: right;
+    text-align: end; 
+    margin-right: 70px;
+    padding: 10px 80px 0 0;
+}
+.navigation nav a{
+    /* margin: 10px; */
+    padding: 5px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navigation nav a:hover
+{
+    border:none;
+    border-bottom: red;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    font-weight: 600;
+}
+
+.content{
+    text-align: center;
+    padding-top: 10px;
+}
+/* h1{
+    margin-top: 0px;
+} */
+.services2{
+    display: flex;
+    flex-basis: 20%;;
+}
+.services2 h5{
+    font-size: 20px;
+    margin: 0px;;
+}
+.services h1{
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    margin: 50px;;
+}
+.test h1{
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    margin: 50px;;
+}
+.test2{
+    display: flex;
+    flex-basis: 60%;;
+}
+.t1{
+    float: center;
+    padding-left: 160px;
+}
+.t2{
+    float: center;
+    padding-left:160px;
+}
+.contact h1{
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    margin: 50px;;
+}
+.contact2{
+    margin-bottom: 25px;
+}
+.footer{
+    color: black;
+    /*height: 150px;*/
+    min-height: 250px;
+    background-color: #F9F9F9;
+    clear: both;
+    width: 100%;
+}
+
+.footer-items {
+    width: 33%;
+    float: left;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.footer-items li {
+    text-align: left;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-width: 0 0 1px;
+    font-size: 18px;
+    border-color: gray;
+    border-style: solid;
+}
+
+.submit-btn {
+    color: white;
+    margin-top: 20px;
+    background: #1DA1F2;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 900;
+    width: 50%;
+    border: none;
+    outline: none;
+}
